@@ -193,8 +193,9 @@ brew_tap 'caskroom/versions'
 brew_cask_install 'cloud'
 brew_cask_install 'github'
 brew_cask_install 'spotify'
-brew_cask_install 'atom' # S3 problems
+brew_cask_install 'atom' # S3 problems  
 brew_cask_install 'iterm2'
+brew cask install 'google-chrome'
 
 if [ -f "$HOME/.laptop.local" ]; then
   . "$HOME/.laptop.local"
