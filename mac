@@ -198,6 +198,9 @@ brew_cask_install 'atom' # S3 problems
 brew_cask_install 'iterm2'
 brew cask install 'google-chrome'
 
+# Python
+sudo easy_install pip 
+
 if [ -f "$HOME/.laptop.local" ]; then
   . "$HOME/.laptop.local"
 fi
