@@ -196,7 +196,8 @@ brew_cask_install 'github'
 brew_cask_install 'spotify'
 brew_cask_install 'atom' # S3 problems  
 brew_cask_install 'iterm2'
-brew cask install 'google-chrome'
+brew_cask install 'google-chrome'
+brew_cask install 'flashlight'
 
 # Python
 sudo easy_install pip 
