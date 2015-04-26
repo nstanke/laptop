@@ -137,10 +137,6 @@ brew_install_or_upgrade 'the_silver_searcher'
 
 brew_tap 'gapple/services'
 
-brew_install_or_upgrade 'redis'
-fancy_echo 'Restarting redis...'
-brew services restart redis
-
 brew_install_or_upgrade 'imagemagick'
 brew_install_or_upgrade 'qt'
 
