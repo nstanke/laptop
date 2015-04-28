@@ -142,6 +142,7 @@ brew_install_or_upgrade 'qt'
 
 brew_install_or_upgrade 'hub'
 brew_install_or_upgrade 'z'
+
 # shellcheck disable=SC2016
 append_to_file "$HOME/.zshrc" 'eval "$(hub alias -s)"'
 
@@ -190,13 +191,14 @@ brew_tap 'caskroom/versions'
 brew_cask_install 'cloud'
 brew_cask_install 'github'
 brew_cask_install 'spotify'
-brew_cask_install 'atom' # S3 problems  
+brew_cask_install 'atom' # S3 problems
 brew_cask_install 'iterm2'
-brew_cask install 'google-chrome'
-brew_cask install 'flashlight'
+brew_cask_install 'google-chrome'
+brew_cask_install 'flashlight'
+brew_cask_install 'fing'
 
 # Python
-sudo easy_install pip 
+sudo easy_install pip
 
 if [ -f "$HOME/.laptop.local" ]; then
   . "$HOME/.laptop.local"
