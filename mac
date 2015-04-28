@@ -141,7 +141,6 @@ brew_install_or_upgrade 'imagemagick'
 brew_install_or_upgrade 'qt'
 
 brew_install_or_upgrade 'hub'
-brew_install_or_upgrade 'z'
 
 # shellcheck disable=SC2016
 append_to_file "$HOME/.zshrc" 'eval "$(hub alias -s)"'
